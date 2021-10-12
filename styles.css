@@ -1,0 +1,160 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: black;
+    background: url("diamonds.jpg") repeat-y center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page-container{
+    width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 50px;
+}
+
+.banner {width: 100%;}
+
+/* TYPOGRAPHY */
+h1 {
+    color: #169bcf;
+    float: left;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+#header { overflow: auto;}
+
+#nav {
+    float: right;
+    margin-top: 30px;
+}
+
+#nav a {
+color: rgb(41, 41, 41);
+padding: 10px 18px;
+display: inline-block;
+text-align: center;
+border: 1px #ccc solid;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 12px;
+}
+
+#nav a:hover {
+    background: #f2f2f2;
+    border: 1px #f2f2f2 solid;
+}
+
+.scriptify {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 12px;
+    border-top: 1px #ccc solid;
+    padding-top: 10px;
+}
+
+/* LIST STYLES */
+ul li {
+    padding: 10px 0 10px 10px;
+    width: 600px;
+}
+
+li:nth-child(odd) { background: #f2f2f2; }
+
+/* TABLE STYLES */
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+th {
+    background: #222;
+    color: #fff;
+}
+
+th, td {
+    border: 1px solid #222;
+    text-align: center;
+    padding: 6px 0;
+  }
+
+/* FORM STYLES */
+input[type=text], textarea {
+    padding:10px;
+    margin:10px 0;
+    width: 50%;
+  }
+
+  input, textarea {
+    font-family:inherit;
+    font-size: inherit;
+  }
+
+  .radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+  }
+  
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+  
+  .radio-item label {
+    color: #666;
+    font-weight: normal;
+  }
+  
+  .radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 11px;
+    border: 2px solid #004c97;
+    background-color: transparent;
+  }
+  
+  .radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #aa0d88;
+  }
+
+  input[type=submit] {
+    padding:10px 18px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input[type=submit]:hover {
+    background: #ddd;
+    color: #222;
+}
